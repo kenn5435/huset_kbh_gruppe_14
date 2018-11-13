@@ -1,0 +1,535 @@
+/* Font use 
+
+
+font-family: 'Montserrat', sans-serif; H1,H2,H3,H4,H5
+font-family: 'Open Sans', sans-serif; Reading text and button
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900|Open+Sans:400,800');
+
+
+
+
+:root {
+    /* 
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+*/
+    /* Override Variables */
+    --font-family-sans-serif: 'Open Sans', -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+        Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol';
+
+    /* Page Variables */
+    --my-primary: #edf7fe;
+
+
+}
+
+.bg-light {
+    background-color: var(--my-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--my-primary) !important;
+}
+
+.text-my-primary {
+    color: var(--my-primary) !important;
+
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+/* Navbar */
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: black !important;
+    font-weight: 400;
+}
+
+.nav-item a:hover {
+    color: black !important;
+    transition: 0.5s ease;
+    text-decoration: underline;
+}
+
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.card {
+    height: 100%;
+}
+
+
+/* Full slider */
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+/* Skab Events  */
+
+/* btn */
+.btn-lg {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #000;
+    border: 0;
+    font-size: 1em;
+    font-family: 'Open Sans'sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.btn-lg:hover {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #FF9700;
+    text-decoration: underline;
+    border: 0;
+
+}
+
+.btn-lg:active {
+    padding: 0;
+    margin: 0;
+    background-color: transparent !important;
+    color: #FF9700 !important;
+    text-decoration: underline;
+    border: 0;
+
+}
+
+.card-footer .btn-primary {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #000;
+    border: 0;
+    font-size: 1em;
+    font-family: 'Open Sans'sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card-footer .btn-primary:hover {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #FF9700;
+    text-decoration: underline;
+    border: 0;
+}
+
+.card-footer .btn-primary:active {
+    padding: 0;
+    margin: 0;
+    background-color: transparent !important;
+    color: #FF9700 !important;
+    text-decoration: underline;
+    border: 0;
+}
+
+
+/* Seneste event */
+
+.card {
+    padding: 0;
+    margin: 0;
+    padding: 1em;
+
+}
+
+.card-body {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.card-title {
+    margin: 25px 0 25px 0;
+}
+
+.card-text {
+
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+}
+
+.card-title:hover {
+    transition: 0.5s ease;
+    color: orange;
+}
+
+.card-footer {
+    background-color: transparent;
+    padding: 20px 0 20px 0;
+    border: 0;
+
+}
+
+
+/* Event Kalender */
+
+
+.Event_calender tr {
+    background-color: white;
+    margin: 15px 0 15px 0;
+    border: 0;
+}
+
+.Event_calender tr:nth-child(2) {
+    background-color: rgba(237, 244, 248, 0.36);
+    margin: 15px 0 15px 0;
+
+}
+
+
+.Event_calender tr:hover {
+    transition: 1s ease;
+    -webkit-box-shadow: 0px 0px 60px -26px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0px 0px 60px -26px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 0px 60px -26px rgba(0, 0, 0, 0.33);
+
+
+}
+
+.Event_calender .btn-primary {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #000;
+    border: 0;
+    font-size: 1em;
+    font-family: 'Open Sans'sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Event_calender .btn-primary:hover {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #FF9700;
+    text-decoration: underline;
+    border: 0;
+}
+
+.Event_calender .btn-primary:active {
+    padding: 0;
+    margin: 0;
+    background-color: transparent !important;
+    color: #FF9700 !important;
+    text-decoration: underline;
+    border: 0;
+}
+
+.buy_link a {
+    color: red;
+}
+
+.page-link {
+    border: 0;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.page-link:hover {
+    border: 0;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* ICON */
+
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+    margin-right: 0
+}
+
+.social-icons a:hover {
+    background-color: var(--primary)
+}
+
+
+
+.margin10 {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
+
+
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    border-radius: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.breadcrumb-item a {
+    color: #3f434e;
+}
+
+/* 25.2 footer link */
+
+
+
+.footer-links {
+    padding-left: 1px;
+}
+
+.footer-links li {
+    margin-bottom: 20px;
+    position: relative;
+    list-style-type: none;
+
+}
+
+.footer-links li::before {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    height: 12px;
+    width: auto;
+    color: #fff;
+}
+
+.footer-links li a {
+    color: #000;
+    transition: .2s ease;
+    display: block;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* 25.3 subcription */
+.form-control.subscribe {
+    width: 100%;
+    border-radius: 35px;
+    border: 0;
+    padding: 0 20px !important;
+    height: 50px;
+}
+
+
+.text-black {
+    color: black !important;
+
+}
+
+/* subscribe button */
+.btn-subscribe {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background: black;
+    transition: all linear .2s;
+}
+
+.btn-subscribe:hover {
+    padding-left: 15px;
+}
+
+.btn-subscribe:focus {
+    outline: 0;
+}
+
+.fa-arrow-right {
+    color: white !important;
+}
+
+/*# sourceMappingURL=maps/style.css.map */
+
+.fa-calendar-alt {
+    margin-left: 10px;
+    font-size: 20px;
+
+    color: orange !important;
+}
+
+
+#map_canvas {
+    height: 500px;
+}
+
+@media (max-width: 575px) {
+    #map_canvas {
+        height: 300px;
+    }
+}
+
+textarea.form-control {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.contact-icon {
+    font-size: 40px;
+    margin-right: 25px;
+    color: #3f434e;
+}
+
+
+
+
+
+/* UNDERSIDER */
+
+.my-6 {
+    margin: 60px 0 60px
+}
+
+
+
+
+/* Kontakt */
+
+.btn-contact {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #000 !important;
+    border: 0;
+    font-size: 1em;
+    font-family: 'Open Sans'sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.btn-contact:hover {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: #FF9700;
+    text-decoration: underline;
+    border: 0;
+}
+
+.btn-contact:active {
+    padding: 0;
+    margin: 0;
+    background-color: transparent !important;
+    color: #FF9700 !important;
+    text-decoration: underline;
+    border: 0;
+}
