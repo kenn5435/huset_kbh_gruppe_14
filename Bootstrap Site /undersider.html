@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script defer src="js/lib/fontawesome-all.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Animation css -->
     <link rel="stylesheet" href="css/animate.css">
+    <!-- Hover btn effecter -->
+    <link rel="stylesheet" href="css/hover.css">
+    <!-- Aos Fade content Animated -->
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Forside</title>
 
@@ -23,66 +28,125 @@
 
 </head>
 
+
+
 <body id="page-top">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container my-2">
             <a class="navbar-brand" href="index.html">
-                <img src="img/HUSET-logo.png" width="160" alt="This is our logo">
+                <img src="img/HUSET-logo.png" width="130" alt="This is our logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="d-flex flex-row order-2 order-lg-3 ml-4">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-flickr"></i></a></li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse order-3 order-lg-2" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="undersider.html">Om Os
-                        </a>
+                    <li class="nav-item"><a class="nav-link" href="#">Om Os</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Faciliteter</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="undersider.html">Faciliteter</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Event.html">Event</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Event</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- philosophy -->
-    <div class="container">
-        <div class="row my-6">
-            <div class="col-lg-7 order-2 order-lg-1">
-                <h5 class="section-title-sm">Lille Overskrift</h5>
-                <h2 class="section-title section-title-border-half">Event Overskrift h2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip
-                    ex commodo consequat. duis aute irure dolor in reprehenderivoluptate velit esse cillum dolore fugiat
-                    nulla pariatur.Excepteur sint ocaecat cupidatat noproident sunt culpa qui officia deserunt mollit anim
-                    id est laborum.</p>
-                <p>Sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque
-                    ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <!-- Page Content -->
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip
-                    ex commodo consequat. duis aute irure dolor in reprehenderivoluptate velit esse cillum dolore fugiat
-                    nulla pariatur.Excepteur sint ocaecat cupidatat noproident sunt culpa qui officia deserunt mollit anim
-                    id est laborum.</p>
-                <p>Sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque
-                    ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <div class="container-fulid">
+        <div class="container my-5">
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Hvad er Huset-KBH?
+                    </h2>
+                    <p>I Huset finder du en masse kulturoplevelser, krøllede ideer og kreative ildsjæle. Med intet mindre end 5 scener, en biograf, et teater, øvelokaler, madbod, arkadespil, en brætspilscafé – og mere end tyve foreninger og klubber – sker der rigtig meget!
+
+                        Huset er faktisk et af Danmarks ældste kulturhuse! Det har ligget i Magstræde midt i København siden 1970, hvor det blev besat af en gruppe hippier og kunstnere.
+
+
+
+                        I 2015 blev Huset en del af DIT:KBH som består af kulturhusene Huset-KBH, Verdenskulturcenteret, Onkel Dannys Plads, Kulturhuset Indre By og huser derudover også organisationerne CPH Volunteers og Projektpionererne. Sammenlagt står DIT:KBH for mere end 3000 årlige kulturarrangementer og tilbud, hvilket samler over 1.2 mio. besøgende københavnere hvert år.
+
+                        Selvom Huset i dag har ændret navn og officielt nu hedder Huset-KBH så lever den gamle Magstræde-ånd videre gennem leg, kreativitet og frivillighed. Huset handler om at skabe sjove, skæve og alternative kulturoplevelser, der får hverdagen til at skille sig ud!</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/undersider/web04.jpg" class="featurette-image img-fluid mx-auto" alt="Huset Kbh">
+                </div>
             </div>
-            <!-- philosophy image -->
-            <div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
-                <img class="img-fluid w-100" src="img/Event/U0lCIGh5Z2dlIG9nIGZyb2tvc3Q.jpg" alt="philosophy-image">
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Vi er rammen – I er billedet
+                    </h2>
+                    <p>Huset er en mikro-by i byen, der drives af samskabelse. Her udvikler kulturskabere, entreprenante typer, ildsjæle og kreative mennesker alternative kulturoplevelser i samarbejder på kryds og tværs. Derfor opstår unikke oplevelser, som er formet af den interesse og passion, arrangørerne og publikum bringer med ind i Huset.
+
+                        Hvert år arrangerer Huset, sammen med en bred kreds af foreninger, mere end 1500 små og store events og festivaler! De spænder fra livemusik og film til scenekunst, poesi og stand-up, og byder på både helt nye talenter og mere etablerede artister og bands.
+
+                        På en typisk fredag aften kan man for eksempel både se kultfilm i Husets Biograf, få en intim og stærk koncertoplevelse i Musikcaféen eller blive blæst bagover af de skarpeste poeter i byen til Poetry Slam. Eller man kan tage et slag Matador eller noget lidt mere nørdet i Bastard Café med en kold specialøl og nyde sommeraftenen i Gårdhaven.
+
+                        I Huset stiller vi professionelle faciliteter til rådighed i autentiske omgivelser.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/undersider/web05.jpg" class="featurette-image img-fluid mx-auto" alt="Jer">
+                </div>
             </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Menneskerne i Huset</h2>
+                    <p>Huset er hjem for en masse kreative ildsjæle, frivillige kulturskabere og kulturelle iværksættere.
+
+                        Når du kommer ind i Huset møder du både gæster, arrangører, frivillige og kunstnere – og selvfølgelig Husets fastansatte crew af teknikere, afviklere, administration, økonomi og PR, der trækker i trådene bag scenetæppet og forøsger at skabe gode rammer for kulturskabelse og frivillighed.
+
+                        Du kan også være med! Vil du eller din forening gerne arrangere et event i Huset-KBH? Så kontakt os og fortæl os om din idé!</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/undersider/web06.jpg" class="featurette-image img-fluid mx-auto" alt="Crewet">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZEHhsg9EcwM" allowfullscreen></iframe>
+            </div>
+            <!-- /END THE FEATURETTES -->
+
+
         </div>
     </div>
 
-    <!-- /philosophy -->
+
+
+    <!-- /.container -->
+
+
     <!-- footer -->
-    <footer class="bg-secondary">
+    <footer class="bg-light">
         <div class="py-100 border-bottom" style="border-color: #454547 !important">
             <div class="container">
                 <div class="row">
@@ -90,9 +154,9 @@
                         <div class="mb-5 mb-md-0 text-center text-md-left">
                             <!-- logo -->
                             <img class="mb-30" src="img/Footer.png" alt="logo">
-                            <p class="text-black mb-30">I Huset finder du en masse kulturoplevelser, krøllede ideer og kreative ildsjæle.<br><br>Med intet mindre end 5 scener, en biograf, et teater, øvelokaler, madbod, arkadespil, en brætspilscafé – og mere end tyve foreninger og klubber – sker der rigtig meget!
+                            <p class="text-black mb-30">Åbningstider for Husets Reception<br><br>
+                                Husets reception har åbent for henvendelser i hverdage ml. 11.00-15.00.
                             </p>
-
                         </div>
                     </div>
                     <!-- footer links -->
@@ -146,7 +210,7 @@
         </div>
         <!-- copyright -->
         <div class="pt-4 pb-3 position-relative">
-            <div class="container">
+            <div class=" container">
                 <div class="row">
                     <div class="col-lg-6 col-md-5">
                         <p class="text-black text-center text-md-left">
@@ -171,12 +235,16 @@
     </footer>
     <!-- /footer -->
 
+
     <!-- Bootstrap core JavaScript -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="jquery/jquery.min.js"></script>
-    <!-- google map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
-    <script src="plugins/google-map/gmap.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin Fade -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

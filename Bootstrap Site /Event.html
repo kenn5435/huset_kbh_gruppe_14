@@ -21,15 +21,16 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/style.css">
 
-
 </head>
+
+
 
 <body id="page-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
         <div class="container my-2">
             <a class="navbar-brand" href="index.html">
-                <img src="img/HUSET-logo.png" width="160" alt="This is our logo">
+                <img src="img/huset_logo_whtie.png" width="160" alt="This is our logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,62 +54,36 @@
             </div>
         </div>
     </nav>
-    <!-- Page Content -->
-    <div class="container">
 
-        <!-- Page Heading -->
-        <h1 class="my-5">Event-Listen</h1>
+    <div class="container-fluid my-5">
+        <div class="container my-5">
+            <section class="data-container my-5">
+            </section>
+        </div>
+        <template class="data-template">
+            <article class="post-container">
 
-        <div class="row">
-            <!-- Row Start -->
-            <!-- Event Start -->
-            <div class="col-sm-4 my-4">
+                <img class="data-billede">
+                <section class="box">
 
-                <div class="card">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Samlingspunkt indre by
-                        </h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+
+                    <h2 class="data-title"></h2>
+                    <p class="data-tid"></p>
+                    <p class="data-sted"></p>
+
+                    <!-- <p data-kort-beskrivelse></p>-->
+                    <!-- <p class="data-lang-beskrivelse"></p>-->
+
+                    <p class="data-dato"></p>
+                    <p class="data-tid"></p>
+                    <div class="flex-pris">
+                        <p class="data-pris"></p>
                     </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Event Slut -->
+                </section>
 
-
-
-
-        </div> <!-- /.row -->
-
-        <!-- Pagination -->
-        <ul class="pagination justify-content-center my-3">
-            <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                    <span class="sr-only">Previous</span>
-                </a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#">2</a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#">3</a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </li>
-        </ul>
+            </article>
+        </template>
     </div>
-    <!-- /.container -->
 
 
 
@@ -121,14 +96,14 @@
                         <div class="mb-5 mb-md-0 text-center text-md-left">
                             <!-- logo -->
                             <img class="mb-30" src="img/Footer.png" alt="logo">
-                            <p class="text-black mb-30">I Huset finder du en masse kulturoplevelser, krøllede ideer og kreative ildsjæle.<br><br>Med intet mindre end 5 scener, en biograf, et teater, øvelokaler, madbod, arkadespil, en brætspilscafé – og mere end tyve foreninger og klubber – sker der rigtig meget!
+                            <p class="text-white mb-30">I Huset finder du en masse kulturoplevelser, krøllede ideer og kreative ildsjæle.<br><br>Med intet mindre end 5 scener, en biograf, et teater, øvelokaler, madbod, arkadespil, en brætspilscafé – og mere end tyve foreninger og klubber – sker der rigtig meget!
                             </p>
 
                         </div>
                     </div>
                     <!-- footer links -->
                     <div class="col-lg-2 col-md-4 col-6">
-                        <h4 class="text-black mb-4">UDLEJNING</h4>
+                        <h4 class="text-white mb-4">UDLEJNING</h4>
                         <ul class="footer-links">
                             <li>
                                 <a href="#">Salon K</a>
@@ -146,7 +121,7 @@
                     </div>
                     <!-- footer links -->
                     <div class="col-lg-2 col-md-4 col-6">
-                        <h4 class="text-black mb-4">VÆR MED!</h4>
+                        <h4 class="text-white mb-4">VÆR MED!</h4>
                         <ul class="footer-links">
                             <li>
                                 <a href="#">Bliv frivilig</a>
@@ -163,7 +138,7 @@
                     <!-- subscribe form -->
                     <div class="col-lg-3 col-md-12 offset-lg-1">
                         <div class="mt-5 mt-lg-0 text-center text-md-left">
-                            <h4 class="mb-4 text-black">TILMELD DIG VORES NYHEDSBREV
+                            <h4 class="mb-4 text-white">TILMELD DIG VORES NYHEDSBREV
                             </h4>
                             <form action="#" class="position-relative">
                                 <input type="text" class="form-control subscribe" name="subscribe" id="Subscribe" placeholder="Enter Your Email">
@@ -175,6 +150,12 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
         <!-- copyright -->
         <div class="pt-4 pb-3 position-relative">
             <div class="container">
@@ -186,13 +167,13 @@
                     <div class="col-lg-6 col-md-7">
                         <ul class="list-inline text-center text-md-right">
                             <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                                <a class="font-secondary text-black" href="#">Bistrad Café</a>
+                                <a class="font-secondary text-white" href="#">Bistrad Café</a>
                             </li>
                             <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                                <a class="font-secondary text-black" href="#">Bip bip bar - Pop Up</a>
+                                <a class="font-secondary text-white" href="#">Bip bip bar - Pop Up</a>
                             </li>
                             <li class="list-inline-item ml-lg-3 my-lg-0 ml-2 my-2 ml-0">
-                                <a class="font-secondary text-black" href="#">Evoo – stairway food kitchena</a>
+                                <a class="font-secondary text-white" href="#">Evoo – stairway food kitchena</a>
                             </li>
                         </ul>
                     </div>
@@ -203,8 +184,12 @@
     <!-- /footer -->
 
     <!-- Bootstrap core JavaScript -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="jquery/jquery.min.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+    <script src="js/wp.js"></script>
+
+
+
 </body>
 
 </html>
