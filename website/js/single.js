@@ -67,16 +67,16 @@ function visJson() {
         klon.querySelector(".data-billede").src = post.acf.billede;
 
 
-        // Lang og kort beskrivelse Start             
+        // Lang og kort beskrivelse Start
 
         /* klon.querySelector("[data-kort-beskrivelse]").textContent = post.acf.kort_beskrivelse;
-            
+
          klon.querySelector("[data-lang-beskrivelse").textContent = post.acf.beskrivelse;
-         
+
          */
 
 
-        // Lang og kort beskrivelse Slut             
+        // Lang og kort beskrivelse Slut
 
         klon.querySelector(".data-pris").textContent = "Pris: " + post.acf.pris + ",-";
         klon.querySelector(".post-container").addEventListener("click", () => {

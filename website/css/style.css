@@ -1,4 +1,4 @@
-/* Font use 
+/* Font use
 
 
 font-family: 'Montserrat', sans-serif; H1,H2,H3,H4,H5
@@ -13,7 +13,7 @@ font-family: 'Open Sans', sans-serif; Reading text and button
 
 
 :root {
-    /* 
+    /*
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -27,7 +27,7 @@ font-family: 'Open Sans', sans-serif; Reading text and button
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    
+
     --primary: #007bff;
     --secondary: #6c757d;
     --success: #28a745;
