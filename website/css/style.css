@@ -73,6 +73,18 @@ h5 {
 
 /* dropdown */
 
+.dropdown-toggle a {
+    display: block;
+    font-weight: normal;
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+.submenu a:hover {}
+
 
 .dropdown-item {
     display: block;
@@ -116,13 +128,7 @@ h5 {
     margin: 0;
 }
 
-.submenu a {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: black !important;
-    text-transform: uppercase;
-    font-weight: 600;
-}
+
 
 .dropdown a:hover {
     color: var(--link);
