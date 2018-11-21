@@ -90,74 +90,49 @@
             </div><!-- /.nav-collapse -->
         </div>
     </nav>
+    <!-- Page Content -->
 
-    <div class="contanier my-5">
-        <!-- google map -->
-        <section class="map">
-            <!-- Google Map -->
-            <div id="map_canvas" data-latitude="51.507351" data-longitude="-0.127758"></div>
-        </section>
-        <!-- /google map -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title">Bastard Café – brætspil, kaffe og hygge!
+                </h2>
+                <p>
 
-        <!-- contact -->
+                    I Husets stueetage finder du den populære brætspilscafé Bastard Café. Her kan du spille et utal af brætspil og kortspil og samtidig nyde en god cremet kop kaffe, en lækker mikro-brygget øl eller få lidt til maven i form af chili fries eller deluxe toasts.<br><br>
 
-        <section class="section">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <!-- form -->
-                    <div class="col-lg-7 mb-5 mb-lg-0 text-center text-md-left">
-                        <h2 class="section-title">Kontakt</h2>
-                        <form action="#" class="row">
-                            <div class="col-md-6">
-                                <input type="text" id="firstName" name="firstName" class="form-control mb-4 rounded-0" placeholder="First Name" required>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" id="lastName" name="lastName" class="form-control mb-4 rounded-0" placeholder="Last Name" required>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" id="subject" name="subject" class="form-control mb-4 rounded-0" placeholder="Subject" required>
-                            </div>
-                            <div class="col-md-12">
-                                <textarea name="message" id="message" class="form-control rounded-0 mb-4" placeholder="Message"></textarea>
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" value="send" class="btn btn-primary btn-contact">Send besked</button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- contact item -->
-                    <div class="col-lg-4">
-                        <div class="d-flex mb-60">
-                            <i class="fas fa-map-marker-alt contact-icon"></i>
-                            <div>
-                                <h4>Vores Lokation</h4>
-                                <p class="text-gray">Kommer snart</p>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-60">
-                            <i class="fas fa-phone contact-icon"></i>
-                            <div>
-                                <h4>Ring til os</h4>
-                                <p class="text-gray mb-0">(+45) 12 32 43 54</p>
-                                <p class="text-gray mb-0">(+45) 12 32 43 54</p>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-60">
+                    I kælderen i forhuset har Bastard Café udvidet med Bastard Café Downstairs, hvor du selvfølgelig også kan spille brætspil. Men her kan du også nyde en lidt mere bar-agtig stemning og prøve nogle af deres mange fantastiske gin!<br><br>
 
-                            <i class="fas fa-envelope contact-icon"></i>
-                            <div>
-                                <h4>Skriv til os </h4>
-                                <p class="text-gray mb-0">huset-kbh.dk</p>
-                                <p class="text-gray mb-0">info@huset-kbh.dk</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    Det er lige meget, om du aldrig har spillet et spil, kun er vant til 500, ludo og matador eller er super spilnørd! Der er plads til alle! Og Bastard Café har altid en frivillig brætspilsguru, der står klar til at hjælpe med reglerne.<br><br>
+                    Det er lige meget, om du aldrig har spillet et spil, kun er vant til 500, ludo og matador eller er super spilnørd! Der er plads til alle! Og Bastard Café har altid en frivillig brætspilsguru, der står klar til at hjælpe med reglerne.<br><br>
+
+                    Kom også med til en af de sjove temaaftener. Vi holder turneringer og sociale selskabslege, hvor du kan lære nye mennesker eller spil at kende. <a href="#">Tjek kalenderen her.</a><br><br>
+
+                    Bemærk at næsten al kommunikation i Bastard Café foregår på engelsk, da en stor del af personalet engelsktalende.<br><br>
+
+                    Se mere på <a href="#">Bastard Cafés hjemmeside</a><br><br>
+
+
+
+                    Bastard Café åbningstider<br><br>
+                    Mandag-torsdag: 12.00-00.00<br>
+                    Fredag-lørdag: 12.00-02.00<br>
+                    Søndag: 12.00-00.00<br><br>
+
+                    <a href="#">Se mere på Bastard Cafés hjemmeside</a><br><br>
+
+                    <a href="#">Bastard Café på Facebook</a><br><br>
+
+                </p>
             </div>
-        </section>
-        <!-- /contact -->
+        </div>
+
     </div>
-    <!-- /container -->
+
+
+
+    <!-- /.container -->
+
 
     <!-- footer -->
     <footer class="bg-light">
@@ -248,11 +223,17 @@
         </div>
     </footer>
     <!-- /footer -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="jquery/jquery.min.js"></script>
-    <!-- google map -->
 
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin Fade -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

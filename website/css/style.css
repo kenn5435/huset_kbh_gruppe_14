@@ -13,39 +13,6 @@ font-family: 'Open Sans', sans-serif; Reading text and button
 
 
 :root {
-    /*
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-
-    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-*/
     /* Override Variables */
     --font-family-sans-serif: 'Open Sans', -apple-system,
         BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
@@ -100,28 +67,114 @@ h5 {
 .nav-item a:hover {
     color: var(--link) !important;
     text-decoration: underline;
+
 }
 
 
 /* dropdown */
 
-.dropdown-menu {
-    background-color: #eec6d8;
-    margin: 21px 0px 0 0;
-    border: 0;
 
-}
-
-.dropdown-menu a:hover {
-    color: var(--link) !important;
+.dropdown-item {
+    display: block;
+    padding: 3px 20px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #333333;
+    font-size: 12px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-right: 0px;
 }
 
 .dropdown-item:hover {
-    background-color: var(--main-color);
+    padding: 3px 23px;
+    transition: .5s;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--link);
+
+}
+
+.dropdown-item a:hover {}
+
+
+
+
+
+.dropdown-menu-right {
+    background-color: var(--main-color) !important;
+
+}
+
+.dropdown-menu-right a {
+    background-color: var(--main-color) !important;
+
+}
+
+.dropdown-toggle {
+    padding: 0;
+    margin: 0;
+}
+
+.submenu a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.dropdown a:hover {
+    color: var(--link);
+
 }
 
 
+.dropdown-large {
+    width: 400px;
 
+}
+
+.dropdown-menu-large {
+    background-color: var(--main-color);
+}
+
+/*luft inden i menuen*/
+.dropdown-menu-large > li > ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu-large > li > ul > li {
+    list-style: none;
+}
+
+.dropdown-menu-large > li > ul > li > a {
+    display: block;
+    padding: 3px 20px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #333333;
+    font-size: 12px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-right: 0px;
+}
+
+.dropdown-menu-large > li ul > li > a:hover,
+.dropdown-menu-large > li ul > li > a:focus {}
+
+.dropdown-menu-large .dropdown-header {}
+
+@media (max-width: 768px) {
+    .dropdown-menu-large {}
+
+    .dropdown-menu-large > li {}
+
+    .dropdown-menu-large > li:last-child {}
+
+    .dropdown-menu-large .dropdown-header {}
+}
 
 
 
@@ -342,8 +395,6 @@ body {
     font-size: 30px;
     color: var(--black) !important;
 
-
-
 }
 
 .Event_calender {}
@@ -356,8 +407,6 @@ body {
 
 }
 
-
-
 tr:nth-child(1) {
     border-bottom: 0;
     border: 0;
@@ -368,8 +417,6 @@ tr:nth-last-child(1) {
     border: 0;
 
 }
-
-
 
 .table td,
 .table th {
@@ -402,9 +449,6 @@ tr:nth-last-child(1) {
     transition: 1s;
 
 }
-
-
-
 
 /* ICON */
 
@@ -673,8 +717,6 @@ header video {
 
 }
 
-
-
 .data-tid {
     font-size: 16px;
     color: #575757;
@@ -723,8 +765,6 @@ header video {
     margin-top: -40px;
     width: 300px;
     left: 28px;
-
-
 }
 
 
@@ -738,9 +778,6 @@ header video {
 
     }
 }
-
-
-
 
 
 @media screen and (min-width:965px) {
@@ -818,14 +855,48 @@ header video {
 
     .post-container:hover {}
 
-
-
-
 }
 
+/*adminstration site*/
+.team {
+    max-width: 243px;
+    margin: 45px auto 0px;
+    padding: 0px 10px;
+}
 
-.back {}
+.team h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--link);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 
-.back:hover {
-    font-size: 3.2em;
+.team p {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.team-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.team-image img {
+    max-width: 223px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.team-image:hover img {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.team-image .social-icons a:hover {
+    bottom: 5px;
 }

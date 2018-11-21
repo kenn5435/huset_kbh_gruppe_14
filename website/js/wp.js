@@ -6,12 +6,12 @@
  document.addEventListener("DOMContentLoaded", hentJson);
  async function hentJson() {
 
-     let myJsonMusik = await fetch("http://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/musikevent");
+     let myJsonMusik = await fetch("https://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/musikevent");
      wpJSON = await myJsonMusik.json()
      JsonArray = wpJSON;
 
 
-     let myJsonAndre = await fetch("http://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/andreevent");
+     let myJsonAndre = await fetch("https://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/andreevent");
      wpJSON = await myJsonAndre.json()
      wpJSON.forEach(event => {
          JsonArray.push(event)
@@ -20,19 +20,19 @@
      //JsonArray.push(myJsonAndre);
 
 
-     let myJsonOrd = await fetch("http://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/ordevent");
+     let myJsonOrd = await fetch("https://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/ordevent");
      wpJSON = await myJsonOrd.json()
      wpJSON.forEach(event => {
          JsonArray.push(event)
      })
 
-     let myJsonFilm = await fetch("http://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/filmevent");
+     let myJsonFilm = await fetch("https://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/filmevent");
      wpJSON = await myJsonFilm.json()
      wpJSON.forEach(event => {
          JsonArray.push(event)
      })
 
-     let myJsonScene = await fetch("http://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/sceneevent");
+     let myJsonScene = await fetch("https://imkennykennedy.com/kea/2_semester/tema_7/huset/wordpress/wp-json/wp/v2/sceneevent");
      wpJSON = await myJsonScene.json();
      wpJSON.forEach(event => {
          JsonArray.push(event)

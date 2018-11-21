@@ -91,73 +91,38 @@
         </div>
     </nav>
 
-    <div class="contanier my-5">
-        <!-- google map -->
-        <section class="map">
-            <!-- Google Map -->
-            <div id="map_canvas" data-latitude="51.507351" data-longitude="-0.127758"></div>
-        </section>
-        <!-- /google map -->
+    <!-- Page Content -->
 
-        <!-- contact -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title">evoo – street kitchen – nordisk/italiensk street food</h2>
+                <p>
+                    På første sal i Huset kan du stille sulten med italiensk street food lavet på lokale, økologiske råvarer. Du kan blandt andet sætte tænderne i en vegansk pizza, evoos take på polenta fries eller en focaccia sandwich med vegansk pålæg.<br><br>
 
-        <section class="section">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <!-- form -->
-                    <div class="col-lg-7 mb-5 mb-lg-0 text-center text-md-left">
-                        <h2 class="section-title">Kontakt</h2>
-                        <form action="#" class="row">
-                            <div class="col-md-6">
-                                <input type="text" id="firstName" name="firstName" class="form-control mb-4 rounded-0" placeholder="First Name" required>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" id="lastName" name="lastName" class="form-control mb-4 rounded-0" placeholder="Last Name" required>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" id="subject" name="subject" class="form-control mb-4 rounded-0" placeholder="Subject" required>
-                            </div>
-                            <div class="col-md-12">
-                                <textarea name="message" id="message" class="form-control rounded-0 mb-4" placeholder="Message"></textarea>
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" value="send" class="btn btn-primary btn-contact">Send besked</button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- contact item -->
-                    <div class="col-lg-4">
-                        <div class="d-flex mb-60">
-                            <i class="fas fa-map-marker-alt contact-icon"></i>
-                            <div>
-                                <h4>Vores Lokation</h4>
-                                <p class="text-gray">Kommer snart</p>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-60">
-                            <i class="fas fa-phone contact-icon"></i>
-                            <div>
-                                <h4>Ring til os</h4>
-                                <p class="text-gray mb-0">(+45) 12 32 43 54</p>
-                                <p class="text-gray mb-0">(+45) 12 32 43 54</p>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-60">
+                    evoo – eller extra virgin olive oil – er flyttet ind i det gamle Spisehus’ køkken på første sal, og deler indgang med Bip Bip Bar Pop-Up. Gadekøkkenet trækker inspiration fra italienske og nordiske gourmettraditioner og tilbyder vegetariske alternativer til street food-klassikere som pizza og sandwich.<br><br>
 
-                            <i class="fas fa-envelope contact-icon"></i>
-                            <div>
-                                <h4>Skriv til os </h4>
-                                <p class="text-gray mb-0">huset-kbh.dk</p>
-                                <p class="text-gray mb-0">info@huset-kbh.dk</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    Take away-retterne er bestemt af sæsonen, og ingredienserne er udvalgt med fokus på klimavenlighed og økologi. evoo har bronzemærke i økologi med 30-60% af råvarerne fra økologiske kilder.<br><br>
+
+                    Bemærk at evoo er et street food-køkken uden spisepladser. Du er velkommen til at nyde maden i Husets gård eller ved bordene i Bastard Café eller Bip Bip Bar Pop-Up.<br><br>
+
+                    <a href="#">Læs mere om evoo – street kitchen, og se menuen på evoos hjemmeside.</a><br><br>
+
+
+
+                    <srong>evoo – street kitchens åbningstider</srong><br>
+                    Tirsdag-lørdag: 12-15 og 17-22
+
+
+                </p>
             </div>
-        </section>
-        <!-- /contact -->
+        </div>
+
     </div>
-    <!-- /container -->
+
+
+
+    <!-- /.container -->
 
     <!-- footer -->
     <footer class="bg-light">
@@ -248,11 +213,17 @@
         </div>
     </footer>
     <!-- /footer -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="jquery/jquery.min.js"></script>
-    <!-- google map -->
 
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin Fade -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
